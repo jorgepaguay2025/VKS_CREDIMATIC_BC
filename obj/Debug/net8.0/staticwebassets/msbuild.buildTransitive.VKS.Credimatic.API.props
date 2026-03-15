@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\VKS.Credimatic.API.props" />
+</Project>

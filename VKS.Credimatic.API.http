@@ -1,0 +1,6 @@
+@VKS.Credimatic.API_HostAddress = http://localhost:5100
+
+GET {{VKS.Credimatic.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
