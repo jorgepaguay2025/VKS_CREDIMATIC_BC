@@ -18,6 +18,7 @@ public class AppDbContext : DbContext
     public DbSet<MdSysDescripcionEvento> MdSysDescripcionEventos => Set<MdSysDescripcionEvento>();
     public DbSet<MdProAuditoria> MdProAuditorias => Set<MdProAuditoria>();
     public DbSet<MdSysSistema> MdSysSistemas => Set<MdSysSistema>();
+    public DbSet<MdSysEmpresa> MdSysEmpresas => Set<MdSysEmpresa>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -74,6 +75,11 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<MdSysSistema>(e =>
         {
             e.HasKey(x => new { x.Producto, x.Empresa });
+        });
+
+        modelBuilder.Entity<MdSysEmpresa>(e =>
+        {
+            e.HasKey(x => new { x.Empresa });
         });
     }
 }

@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "HojOA/a5Rf6wNRGf4YYR7caHqFnfvkK12ckPRAfOo5Y=",
-  "Source": "VKS.Credimatic.API",
-  "BasePath": "_content/VKS.Credimatic.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"21Rj8z24ljTKXyVoDJKcEuekWLXCJK/nIY4jkrsADbY=","Source":"VKS.Credimatic.API","BasePath":"_content/VKS.Credimatic.API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

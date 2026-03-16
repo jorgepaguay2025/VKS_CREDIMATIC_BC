@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyecto\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj": {}
+    "C:\\Users\\vane-\\Documents\\jpaguay\\VKS_CREDIMATIC\\VKS_CREDIMATIC_BC\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj": {}
   },
   "projects": {
-    "D:\\Proyecto\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj": {
+    "C:\\Users\\vane-\\Documents\\jpaguay\\VKS_CREDIMATIC\\VKS_CREDIMATIC_BC\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyecto\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj",
+        "projectUniqueName": "C:\\Users\\vane-\\Documents\\jpaguay\\VKS_CREDIMATIC\\VKS_CREDIMATIC_BC\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj",
         "projectName": "VKS.Credimatic.API",
-        "projectPath": "D:\\Proyecto\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj",
-        "packagesPath": "C:\\Users\\so_ca\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyecto\\VKS_CREDIMATIC_BC\\obj\\",
+        "projectPath": "C:\\Users\\vane-\\Documents\\jpaguay\\VKS_CREDIMATIC\\VKS_CREDIMATIC_BC\\VKS_CREDIMATIC_BC\\VKS.Credimatic.API.csproj",
+        "packagesPath": "C:\\Users\\vane-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vane-\\Documents\\jpaguay\\VKS_CREDIMATIC\\VKS_CREDIMATIC_BC\\VKS_CREDIMATIC_BC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\so_ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Users\\vane-\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,10 +25,8 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -90,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\RuntimeIdentifierGraph.json"
         }
       }
     }
